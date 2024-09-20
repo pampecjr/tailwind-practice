@@ -9,9 +9,9 @@ const Buttons = () => {
   };
 
   return (
-    <div className="flex flex-row">
+    <div className="xl:w-64 w-full flex flex-row">
       <div
-        className={`w-32 h-10 my-2 border-[#79747E] border border-solid rounded-l-full flex items-center justify-center space-x-1 cursor-pointer ${
+        className={`xl:w-32 xl:h-10 xl:mx-0 h-12 w-full ml-4 my-2 border-[#79747E] border border-solid rounded-l-full flex items-center justify-center space-x-1 cursor-pointer ${
           selectedButton === "left" ? "bg-[#E8DEF8]" : "bg-white hover:bg-[#E8DEF8]/[.82]"
         }`}
         onClick={() => handlerColorChange("left")}
@@ -20,7 +20,7 @@ const Buttons = () => {
         <div className="font-roboto text-sm font-bold text-center">Label</div>
       </div>
       <div
-        className={`w-32 h-10 my-2 border-[#79747E] border border-solid rounded-r-full flex items-center justify-center cursor-pointer  ${
+        className={`xl:w-32 xl:h-10 xl:mr-0 w-full h-12 mr-4 my-2 border-[#79747E] border border-solid rounded-r-full flex items-center justify-center cursor-pointer  ${
           selectedButton === "right" ? "bg-[#E8DEF8] " : "bg-white hover:bg-[#E8DEF8]/[.82]"
         }`}
         onClick={() => handlerColorChange("right")}

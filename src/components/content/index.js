@@ -4,7 +4,7 @@ import { MdDirectionsWalk } from "react-icons/md";
 
 const Content = ({title,subtitle}) => {
     return(
-        <div className="h-56 mx-6 rounded-lg bg-hero bg-cover bg-center relative flex flex-col justify-end">
+        <div className="xl:h-56 xl:mx-6 xl:rounded-lg w-full h-[369px] bg-hero bg-cover bg-center relative flex flex-col justify-end">
             <div className="absolute inset-0 bg-[#00000052] bg-opacity-32 rounded-lg"></div>
             <div className="relative ml-5 text-white text-5xl font-roboto">
                 {title}

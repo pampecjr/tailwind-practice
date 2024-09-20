@@ -8,12 +8,15 @@ const image1 = 'https://plus.unsplash.com/premium_photo-1676465057173-6828122f7d
 function App() {
   return (
     <div className="w-full flex flex-col items-center gap-2 ">
-      <div className="w-[829px] h-[646px] mt-28">
+      <div className="w-full xl:w-[829px] xl:h-[646px] xl:mt-28">
         <div className="w-full">
           
           <Content title={"Title"} subtitle={"subtitle"}/>
-          
-          <div className="w-full flex flex-col items-center mt-4 mx-6"> <Buttons/> </div>
+          <div className="block xl:hidden mt-2 h-16 font-roboto flex flex-col justify-center">
+            <div className="text-xl font-bold text-center text-[#1D1B20]">Section title</div>
+            <div className="text-sm font-bold text-center text-[#49454F]">Within 5 miles  • $$-$$$</div>
+          </div>
+          <div className="w-full flex flex-col items-center xl:mt-4 xl:mx-6"> <Buttons/> </div>
         </div>
         <div className="w-full gap-1 px-2 ">
           <Item image={image1} title={"Item 1"}/>
