@@ -16,9 +16,9 @@ function App() {
             <div className="text-xl font-bold text-center text-[#1D1B20]">Section title</div>
             <div className="text-sm font-bold text-center text-[#49454F]">Within 5 miles  • $$-$$$</div>
           </div>
-          <div className="w-full flex flex-col items-center xl:mt-4 xl:mx-6"> <Buttons/> </div>
+          <div className="w-full h-16 flex flex-col items-center xl:mt-4 xl:mx-6"> <Buttons/> </div>
         </div>
-        <div className="w-full gap-1 px-2 ">
+        <div className="w-full gap-1 xl:px-2 ">
           <Item image={image1} title={"Item 1"}/>
           <Item image={image1} title={"Item 2"}/>
           <Item image={image1} title={"Item 3"}/>
