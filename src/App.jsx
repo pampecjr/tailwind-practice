@@ -20,7 +20,7 @@ function App() {
               tristique id ultrices eu, ullamcorper eget nibh. Integer porttitor
               lacinia odio vel blandit. Nulla ac lorem purus. Morbi sagittis
               condimentum nunc nec malesuada. Praesent quis tempor magna, et
-              sollicitudin leo.
+              sollicitudin leo. Etiam in.
             </p>
           </div>
           <div className="bg-[#AA95DF] w-[365px] h-[396px] rounded-[30px] px-[40px] py-[30px]">
@@ -35,7 +35,7 @@ function App() {
               tristique id ultrices eu, ullamcorper eget nibh. Integer porttitor
               lacinia odio vel blandit. Nulla ac lorem purus. Morbi sagittis
               condimentum nunc nec malesuada. Praesent quis tempor magna, et
-              sollicitudin leo.
+              sollicitudin leo. Etiam in.
             </p>
           </div>
         </div>
