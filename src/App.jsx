@@ -1,10 +1,13 @@
 import React from "react";
-import { RiComputerFill } from "react-icons/ri";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Footer } from "./components/Footer";
 function App() {
   return (
-    <div className="w-full flex flex-row justify-center items-center gap-2">
-      <h1>Me exclua e crie o seu componente aqui!</h1>
-      <RiComputerFill color="red" />
+    <div className="w-full h-full flex flex-col justify-center items-center gap-2 m-[0px]">
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
